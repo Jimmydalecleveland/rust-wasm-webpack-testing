@@ -19,7 +19,7 @@ console.timeEnd("Time JS fibonacci took");
 
 console.log("\n=============================\n");
 console.log(
-  "Waiting for JS fibonacci to finish... (this will take a few seconds, but should be quicker than JS just took)\n\n"
+  "Waiting for Rust fibonacci to finish... (this will take a few seconds, but should be quicker than JS just took)\n\n"
 );
 
 console.time("Time Rust fibonacci took");
