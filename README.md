@@ -18,6 +18,14 @@ cargo install wasm-pack
 wasm-pack build
 ```
 
+You may also be able to build without `wasm-pack` by running something like:
+
+```bash
+cargo build --target wasm32-unknown-unknown --release
+```
+
+However, this won't give you typescript definitions, or a package.json and such which all makes it ready to import as a package.
+
 ## install JS and run Webpack
 
 ```
