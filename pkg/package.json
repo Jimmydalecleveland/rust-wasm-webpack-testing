@@ -1,0 +1,13 @@
+{
+  "name": "wasm-first",
+  "version": "0.1.0",
+  "files": [
+    "wasm_first_bg.wasm",
+    "wasm_first.js",
+    "wasm_first_bg.js",
+    "wasm_first.d.ts"
+  ],
+  "module": "wasm_first.js",
+  "types": "wasm_first.d.ts",
+  "sideEffects": false
+}
